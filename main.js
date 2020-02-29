@@ -291,3 +291,71 @@
 
 // console.log(todoCompleted);
 
+/*
+                      _ _ _   _                   _ 
+   ___ ___  _ __   __| (_) |_(_) ___  _ __   __ _| |
+  / __/ _ \| '_ \ / _` | | __| |/ _ \| '_ \ / _` | |
+ | (_| (_) | | | | (_| | | |_| | (_) | | | | (_| | |
+  \___\___/|_| |_|\__,_|_|\__|_|\___/|_| |_|\__,_|_|
+                                                    
+*/
+
+// // === compares value and datatypes
+// const x = 10;
+// if (x === 10) {
+//     console.log('x is 10');
+// }
+
+// // == compares value
+// const y = '10';
+// if (y == 10) {
+//     console.log('y is 10');
+// }
+
+// const z = 10;
+// if (z == 10) {
+//     console.log('z is 10');
+// }
+
+// const a = '10';
+// if (a === 10) {
+//     console.log('a is 10');
+// } else {
+//     console.log('a is NOT 10');
+// }
+
+// const b = 21;
+// if (b === 10) {
+//     console.log('b is 10');
+// } else if (b > 10) {
+//     console.log('b is greater than 10');
+// } else {
+//     console.log('b is less than 10');
+// }
+
+// // || is OR, && is AND
+// const c = 4;
+// const d = 11;
+// if (c > 5 || d > 10) {
+//     console.log('c is greater than 5 or d is greater than 10');
+// }
+
+// // ternary
+// // ? is THEN
+// // : is ELSE
+// const e = 11;
+// const color = e > 10 ? 'red': 'blue';
+
+// // switch
+// switch(color) {
+//     case 'red':
+//         console.log('color is red');
+//         break;
+//     case 'blue':
+//         console.log('color is blue');
+//         break;
+//     default:
+//         console.log('color is NOT red or blue');
+//         break;
+// }
+
