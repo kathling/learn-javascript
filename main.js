@@ -359,3 +359,72 @@
 //         break;
 // }
 
+
+/*
+   __                  _   _             
+  / _|_   _ _ __   ___| |_(_) ___  _ __  
+ | |_| | | | '_ \ / __| __| |/ _ \| '_ \ 
+ |  _| |_| | | | | (__| |_| | (_) | | | |
+ |_|  \__,_|_| |_|\___|\__|_|\___/|_| |_|
+                                         
+*/
+
+// // NaN, not a number
+// function addNums(num1 = 1, num2 = 1) {
+//     //console.log(num1 + num2);
+//     return num1 + num2;
+// }
+
+// // num1 is 5, num2 is 4
+// let x = addNums(5, 4);
+// console.log(x);
+
+// // use default values
+// x = addNums();
+// console.log(x);
+
+// x = addNums(5);
+// console.log(x);
+
+// // arrow function
+// // include the FAT arrow
+// const addNums2 = (num1 = 1, num2 = 1) => {
+//     return num1 + num2;
+// }
+// x = addNums2(5, 4);
+// console.log(x);
+
+// const addNums3 = (num1 = 1, num2 = 1) => num1 + num2;
+// x = addNums3(5, 4);
+// console.log(x);
+
+// const square = num1 => num1 ** 2;
+// console.log(square(5));
+
+// const power = (x, b) => x**b;
+// console.log(power(3, 3));
+// console.log(power(3, 4));
+
+// const power = (x, b) => x**b;
+
+// for (let i = 1; i < 10; i++) {
+//     console.log(`3**${i} : ${power(3, i)}`);
+// }
+
+// const x = [3, 5, 9].map(i => power(3, i));
+// console.log(x);
+
+// const y = [3, 5, 9].map(i => i);
+// console.log(y);
+
+// const z = [3, 5, 9];
+// console.log(z);
+
+// if (y === z) {
+//     console.log('y equals z');
+// } else {
+//     console.log('y not equals z');
+// }
+
+
+
